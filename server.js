@@ -102,7 +102,8 @@ x++
   else if(x>1 && ta == "no"){res.send("invalid number and unit")}
   else{
   res.json({initNum:eval(lb3), initUnit: lb2, returnNum: Number(lb1a.toFixed(5)), returnUnit: lb2a, string: lb3 + " " + lb1b + " converts to " + lb1a.toFixed(5) + " " + lb2b})
-  }   })
+  }   
+})
      
 //For FCC testing purposes
 fccTestingRoutes(app);
